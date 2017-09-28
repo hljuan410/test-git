@@ -1,0 +1,12 @@
+{% macro input(item) %}
+<a href="{{ item.url }}" target="_blank" class="meinv-imginfo">
+    <div class="meinv-imginfo-title">
+        <img src="{{ item.img }}"/>
+        <div class="title">
+            <span class="title-left">{{ item.title }}</span>
+            <span class="title-right">{{ item.num }}万</span>
+        </div>
+    </div>
+    <p>{{ item.desc }}</p>
+</a>
+{% endmacro %}

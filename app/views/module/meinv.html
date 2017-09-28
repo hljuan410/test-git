@@ -1,0 +1,18 @@
+{% import "./gengduo.html" as more %}
+{% import "./meinvImginfo.html" as meinvInfos %}
+<div class="meinv">
+    <div class="meinv-title">
+        <img  class="meinv-title-img" src="../img/src/zhibo.png" />
+    </div>
+    <div class="meinv-content">
+        <ul class="meinv-content-ul">
+            {% for i in mv %}
+                <li class="meinv-content-item">
+                       {{ meinvInfos.input(i) }}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% set m5=urlMore[5] %}
+    {{ more.gengduo(m5) }}
+</div>

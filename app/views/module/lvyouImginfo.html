@@ -1,0 +1,11 @@
+{% macro input(item) %}
+<a href="{{ item.url }}" target="_blank" class="lvyou-imginfo">
+    <img src="{{ item.img }}"/>
+    <span class="city">{{ item.city }}</span>
+    <p>{{ item.desc }}</p>
+    <div class="lvyou-imginfo-price">
+        <span class="price"><i>¥</i><em>{{ item.price }}</em>起</span>
+        <span class="number"><b>{{ item.discount }}</b>折</span>
+    </div>
+</a>
+{% endmacro %}

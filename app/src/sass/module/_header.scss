@@ -1,0 +1,10 @@
+.header,.content,.footer{
+    width: p2m(1080);
+    margin:0 auto;
+}
+.header{
+    .header-img{
+        width: 100%;
+        height: p2m(900);
+    }
+}

@@ -1,0 +1,85 @@
+.gouwu{
+    width: p2m(1000);
+    margin:0 auto p2m(40) auto;
+}
+.gouwu-title{
+    .gouwu-title-img{
+        width: 100%;
+        height: p2m(150);
+    }
+}
+.gouwu-content{
+    width: p2m(914);
+    height: p2m(835);
+    background-color: #a1faff;
+    border: p2m(3) solid #2f79c6;
+    border-radius: p2m(27);
+    margin-top: p2m(-65);
+    padding:p2m(65) p2m(40);
+}
+.gouwu-content-ul{
+    overflow: hidden;
+    margin-right: p2m(-42);
+    margin-bottom: p2m(-42);
+    .gouwu-content-item{
+        float: left;
+        width: p2m(435);
+        height: p2m(405);
+        margin-right: p2m(42);
+        margin-bottom: p2m(42);
+    }
+}
+.gouwu-imginfo{
+    display: block;
+    text-decoration: none;
+    .gouwu-imginfo-title{
+        position: relative;
+        width: p2m(435);
+        height: p2m(330);
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .title{
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            color: #fff;
+            text-align: center;
+            font-size: p2m(36);
+            padding:p2m(15) 0;
+            white-space:nowrap;
+            overflow: hidden;
+            background: -moz-linear-gradient(top,  rgba(0,0,0,0.7) 1%, rgba(0,0,0,0.7) 2%, rgba(0,0,0,0.7) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  rgba(0,0,0,0.7) 1%,rgba(0,0,0,0.7) 2%,rgba(0,0,0,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  rgba(0,0,0,0.7) 1%,rgba(0,0,0,0.7) 2%,rgba(0,0,0,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 ); /* IE6-9 */
+        }
+    }
+    .gouwu-imginfo-price{
+        height: p2m(75);
+        line-height: p2m(75);
+        font-size: p2m(36);
+        color: #ff6082;
+        .price{
+            float: left;
+            width: p2m(240);
+            padding-left: p2m(20);
+            background-color: #fbfbfb;
+            white-space:nowrap;
+            overflow: hidden;
+            em{
+                padding-left: p2m(15);
+            }
+        }
+        .buy{
+            width: p2m(175);
+            float: right;
+            text-align: center;
+            color: #fbfbfb;
+            font-size: p2m(34);
+            background-color: #ff6082;
+        }
+    }
+}

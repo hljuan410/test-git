@@ -1,0 +1,12 @@
+{% macro input(item) %}
+<a href="{{ item.url }}" target="_blank" class="gouwu-imginfo">
+    <div class="gouwu-imginfo-title">
+        <img src="{{ item.img }}"/>
+        <span class="title">{{ item.title }}</span>
+    </div>
+    <div class="gouwu-imginfo-price">
+        <span class="price">促销价<em>¥{{ item.price }}</em></span>
+        <span class="buy">去购买</span>
+    </div>
+</a>
+{% endmacro %}

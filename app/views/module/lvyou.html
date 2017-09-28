@@ -1,0 +1,18 @@
+{% import "./gengduo.html" as more %}
+{% import "./lvyouImginfo.html" as lvyouInfos %}
+<div class="lvyou">
+    <div class="lvyou-title">
+        <img  class="lvyou-title-img" src="../img/src/lvyou.png" />
+    </div>
+    <div class="lvyou-content">
+        <ul class="lvyou-content-ul">
+            {% for i in ly %}
+                <li class="lvyou-content-item">
+                    {{ lvyouInfos.input(i) }}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% set m=urlMore[0] %}
+    {{ more.gengduo(m) }}
+</div>

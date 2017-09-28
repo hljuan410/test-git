@@ -1,0 +1,113 @@
+.lvyou{
+    width: p2m(1000);
+    margin:0 auto p2m(40) auto;
+}
+.lvyou-title{
+    .lvyou-title-img{
+        width: 100%;
+        height: p2m(150);
+    }
+}
+.lvyou-content{
+    width: p2m(914);
+    height: p2m(995);
+    background-color: #a1faff;
+    border: p2m(3) solid #2f79c6;
+    border-radius: p2m(27);
+    margin-top: p2m(-65);
+    padding:p2m(65) p2m(40);
+}
+.lvyou-content-ul{
+    overflow: hidden;
+    margin-right: p2m(-42);
+    margin-bottom: p2m(-42);
+    .lvyou-content-item{
+        float: left;
+        width: p2m(435);
+        height: p2m(490);
+        margin-right: p2m(42);
+        margin-bottom: p2m(42);
+        background-color: #fff;
+    }
+}
+.lvyou-imginfo{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    img{
+        width: p2m(435);
+        height: p2m(300);
+    }
+    .city{
+        position: absolute;
+        left: 0;
+        top: p2m(22);
+        color: #fff;
+        font-size: p2m(30);
+        padding: p2m(10);
+        background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+    }
+    p{
+        color: #4e4e4e;
+        font-size: p2m(36);
+        padding:0 p2m(20);
+        height: p2m(87);
+        line-height: 1.2;
+        margin-top: p2m(20);
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .lvyou-imginfo-price{
+        color: #999;
+        height: p2m(37);
+        line-height: p2m(37);
+        padding: 0 p2m(20);
+        margin-top: p2m(20);
+    }
+    .price{
+        float: left;
+        width: 50%;
+        white-space:nowrap;
+        overflow: hidden;
+        font-size: p2m(24);
+        i,em{
+            color: #ff5b5b;
+        }
+        em{
+            font-size: p2m(36);
+            margin-right: p2m(10);
+        }
+    }
+    .number{
+        font-size: p2m(24);
+        width: 50%;
+        float: right;
+        text-align: right;
+        white-space:nowrap;
+        overflow: hidden;
+        b{
+            color: #ff5b5b;
+        }
+    }
+}
+.more{
+    display: block;
+    width: p2m(994);
+    height: p2m(94);
+    line-height: p2m(94);
+    margin-top: p2m(20);
+    text-align: center;
+    border: p2m(3) solid #2f79c6;
+    border-radius: p2m(27);
+    background-color: #a1faff;
+    color: #3c49a5;
+    font-size: p2m(46);
+    text-decoration: none;
+    
+}

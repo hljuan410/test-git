@@ -1,0 +1,16 @@
+{
+  "watch": [
+    "./app/views",
+    "./app/routes",
+    "./app/data",
+    "./app/config",
+    "./lib"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "execMap": {
+    "js": "node"
+  },
+  "ext": "html js json"
+}

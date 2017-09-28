@@ -1,0 +1,18 @@
+{% import "./gengduo.html" as more %}
+{% import "./yingshiImginfo.html" as yingshiInfos %}
+<div class="yingshi">
+    <div class="yingshi-title">
+        <img  class="yingshi-title-img" src="../img/src/yingshi.png" />
+    </div>
+    <div class="yingshi-content">
+        <ul class="yingshi-content-ul">
+            {% for i in dy %}
+                <li class="yingshi-content-item">
+                    {{ yingshiInfos.input(i) }}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% set m1=urlMore[1] %}
+    {{ more.gengduo(m1) }}
+</div>

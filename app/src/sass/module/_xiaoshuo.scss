@@ -1,0 +1,55 @@
+.xiaoshuo{
+    width: p2m(1000);
+    margin:0 auto p2m(40) auto;
+}
+.xiaoshuo-title{
+    .xiaoshuo-title-img{
+        width: 100%;
+        height: p2m(150);
+    }
+}
+.xiaoshuo-content{
+    width: p2m(914);
+    height: p2m(387);
+    background-color: #a1faff;
+    border: p2m(3) solid #2f79c6;
+    border-radius: p2m(27);
+    margin-top: p2m(-65);
+    padding:p2m(65) p2m(40);
+}
+.xiaoshuo-content-ul{
+    overflow: hidden;
+    margin-right: p2m(-42);
+    .xiaoshuo-content-item{
+        float: left;
+        width: p2m(276);
+        margin-right: p2m(42);
+    }
+}
+.xiaoshuo-imginfo{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    img{
+        width: p2m(276);
+        height: p2m(340);
+    }
+    .state{
+        position: absolute;
+        left: p2m(15);
+        top: 0;
+        width: p2m(81);
+        height: p2m(61);
+        background-image: url(../img/src/mianfei.png);
+        background-size: p2m(81) p2m(61);
+        background-repeat: no-repeat;
+    }
+    p{
+        color: #4e4e4e;
+        font-size: p2m(36);
+        margin-top: p2m(27);
+        text-align: center;
+        white-space:nowrap;
+        overflow: hidden;
+    }
+}

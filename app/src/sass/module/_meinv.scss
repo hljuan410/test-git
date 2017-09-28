@@ -1,0 +1,84 @@
+.meinv{
+    width: p2m(1000);
+    margin:0 auto p2m(40) auto;
+}
+.meinv-title{
+    .meinv-title-img{
+        width: 100%;
+        height: p2m(150);
+    }
+}
+.meinv-content{
+    width: p2m(914);
+    height: p2m(730);
+    background-color: #a1faff;
+    border: p2m(3) solid #2f79c6;
+    border-radius: p2m(27);
+    margin-top: p2m(-65);
+    padding:p2m(65) p2m(40);
+}
+.meinv-content-ul{
+    overflow: hidden;
+    margin-right: p2m(-42);
+    margin-bottom: p2m(-42);
+    .meinv-content-item{
+        float: left;
+        width: p2m(435);
+        height: p2m(355);
+        margin-right: p2m(42);
+        margin-bottom: p2m(42);
+    }
+}
+.meinv-imginfo{
+    display: block;
+    text-decoration: none;
+    .meinv-imginfo-title{
+        position: relative;
+        width: p2m(435);
+        height: p2m(300);
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .title{
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            color: #fff;
+            font-size: p2m(34);
+            padding:p2m(15) 0;
+            background: -moz-linear-gradient(top,  rgba(0,0,0,0.7) 1%, rgba(0,0,0,0.7) 2%, rgba(0,0,0,0.7) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  rgba(0,0,0,0.7) 1%,rgba(0,0,0,0.7) 2%,rgba(0,0,0,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  rgba(0,0,0,0.7) 1%,rgba(0,0,0,0.7) 2%,rgba(0,0,0,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 ); /* IE6-9 */
+            overflow: hidden;
+            .title-left{
+                float: left;
+                width: p2m(278);
+                padding-left: p2m(22);
+                white-space:nowrap;
+                overflow: hidden;
+            }
+            .title-right{
+                float: right;
+                width: p2m(115);
+                padding-left: p2m(20);
+                background-image: url(../img/src/sanjiao.png);
+                background-repeat: no-repeat;
+                background-size: p2m(16) p2m(23);
+                background-position: left;
+                white-space:nowrap;
+                overflow: hidden;
+            }
+        }
+    }
+    p{
+        font-size: p2m(36);
+        color: #4e4e4e;
+        margin-top: p2m(15);
+        white-space:nowrap;
+        overflow: hidden;
+        text-align: center;
+    }
+}
